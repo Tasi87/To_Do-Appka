@@ -9,7 +9,7 @@ html {
 }
 
 body {
-	max-width: 80%;
+	max-width: 100%;
 
 	background: #012340;
 	text-align: center;
@@ -17,6 +17,6 @@ body {
 }
 
 .form-section {
-	width: 60%;
+	width: 50%;
 	margin: 0 auto;	
 }
