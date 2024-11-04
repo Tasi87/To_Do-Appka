@@ -9,10 +9,11 @@ html {
 }
 
 body {
-	width: 100%;
+	max-width: 80%;
 
 	background: #012340;
 	text-align: center;
+	margin: 2rem 15rem;
 }
 
 h1 {
