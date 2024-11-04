@@ -15,3 +15,8 @@ body {
 	text-align: center;
 	margin: 2rem 15rem;
 }
+
+.form-section {
+	width: 60%;
+	margin: 0 auto;	
+}
