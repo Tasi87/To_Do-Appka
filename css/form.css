@@ -1,0 +1,32 @@
+input,
+button {
+    font-size: 1rem;
+
+    width: 100%;
+    display: block;
+    margin: 0 0 1.5rem;
+
+    background: white;
+    border: none;
+    border-radius: 0.75rem;
+
+    outline: none;
+
+    box-shadow: 10px 5px 5px #03A63C;
+}
+
+button {
+    cursor: pointer;
+
+    color: black;
+    background: #03A63C;
+    
+    box-shadow: 10px 5px 5px #03A63C;
+}
+
+button:hover,
+button:focus,
+button:active {
+    background: #04D939;
+    box-shadow: 10px 5px 5px #03A63C;
+}
