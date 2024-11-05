@@ -12,10 +12,16 @@ li {
 }
 
 button.remove {
-    background: red;
+    background: rgb(188, 0, 0);
     border: none;
     border-radius: 0.75rem;
     margin-right: 2rem;
+}
+
+button.remove:hover,
+button.remove:focus,
+button.remove:active {
+    background: red;
 }
 
 p {
