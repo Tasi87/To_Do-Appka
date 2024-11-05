@@ -1,5 +1,5 @@
 input,
-button {
+button.add {
     font-size: 1rem;
 
     text-align: center;
@@ -19,11 +19,13 @@ button {
 
 button {
     cursor: pointer;
+}
 
+button.add {
     color: black;
     background: #03A63C;
     
-    box-shadow: 10px 5px 5px #03A63C;
+    box-shadow: none;
 }
 
 button:hover,
