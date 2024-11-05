@@ -16,8 +16,14 @@ function createNewCard(container, text) {
     `;
 
     newCard.querySelector('.remove').addEventListener('click', () => {
-        newCard.remove();
+        newCard.classList.remove('animate__backInUp');
+        newCard.classList.add('animate__animated', 'animate__backOutDown', 'animate__faster');
+
+        setTimeout(() => {
+            newCard.remove();
+        },
+        500)
     });
 
     container.prepend(newCard);
-};
+}
