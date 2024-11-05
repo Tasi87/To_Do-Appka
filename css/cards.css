@@ -1,0 +1,23 @@
+.cards ul li {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+li {
+    list-style: none;
+
+    background: gainsboro;
+    border-radius: 0.75rem;
+}
+
+button.remove {
+    background: red;
+    border: none;
+    border-radius: 0.75rem;
+    margin-right: 2rem;
+}
+
+p {
+    margin-left: 2rem;
+}
