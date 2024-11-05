@@ -7,12 +7,14 @@
 li {
     list-style: none;
 
+    margin-bottom: 1rem;
+
     background: gainsboro;
     border-radius: 0.75rem;
 }
 
 button.remove {
-    background: rgb(188, 0, 0);
+    background: rgb(214, 16, 16);
     border: none;
     border-radius: 0.75rem;
     margin-right: 2rem;
