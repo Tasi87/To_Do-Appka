@@ -28,9 +28,9 @@ button.add {
     background: #03A63C;
 }
 
-button:hover,
-button:focus,
-button:active {
+button.add:hover,
+button.add:focus,
+button.add:active {
     background: #04D939;
 }
 
