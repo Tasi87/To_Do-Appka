@@ -5,7 +5,7 @@
 *   @param {String} text
 */
 
-function createNewCard(container, text) {
+function createNewItem(container, text) {
     let newCard = document.createElement('li');
     
     newCard.classList.add('animate__animated', 'animate__backInUp', 'animate__faster');

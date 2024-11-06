@@ -7,7 +7,7 @@ form.addEventListener('submit', (event) => {
 
     if (!inputText.value.trim()) return;
 
-    createNewCard(
+    createNewItem(
         cardContainer,
         inputText.value
     );
