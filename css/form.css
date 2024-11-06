@@ -10,7 +10,7 @@ button.add {
     background: white;
     border: none;
     border-radius: 0.75rem;
-
+    
     outline: none;
 }
 
@@ -26,6 +26,7 @@ button {
 button.add {
     color: black;
     background: #03A63C;
+    border: 1px solid black;
 }
 
 button.add:hover,
